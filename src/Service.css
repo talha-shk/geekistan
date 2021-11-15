@@ -1,0 +1,154 @@
+.service-container{
+    background-color:#151515;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0rem;
+}
+.upper-text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.h4-s{
+    margin-top: 1rem;
+}
+.p-s{
+    margin-top: 1rem;
+    text-align: center;
+    color: white;
+}
+.nav{
+    margin: 1rem 0rem;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav > a{
+    text-decoration: none;
+    color: white;
+}
+
+.wrap{
+    margin: 1rem 0rem;
+    width: 70%;
+    display: grid;
+    height: 700px;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 15px;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #292929;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+.card > .after{
+    display: none;
+}
+.card2{
+    grid-row: 2 / span 2;
+}
+.card3{
+    grid-row: 1 / span 2 ;
+}
+.card6{
+    grid-row: 2 / span 2;
+}
+
+.card:hover .before{
+    display: none;
+}
+.card:hover .after{
+    align-items: center;
+    display: block;
+    color: black;
+}
+.card:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width: 600px){
+    html{
+        font-size: 10px;
+    }
+    .h1-s{
+        text-align: center;
+    }
+    .nav{
+        width: 95%;
+    }
+    .wrap{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
+    }
+    .card{
+        width: 90%;
+        height: 335px;
+    }
+    .card2{
+        height: 775px;
+    }
+    .card4{
+    height: 775px;
+}
+.card6{
+    height: 775px;
+}
+.before{
+    font-size: 1rem;
+}
+.after{
+    font-size: 1rem;
+    
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px ) and (max-width: 768px) {
+    .h1-s{
+        text-align: center;
+    }
+    .nav{
+        width: 95%;
+    }
+    .wrap{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+    .card{
+     width: 90%;
+     height: 335px;
+    }
+    .card2{
+    height: 775px;
+    }
+    .card4{
+    height: 775px;
+    }
+    .card6{
+    height: 775px;
+    }
+    .before{
+    font-size: 1rem;
+    }
+    .after{
+    font-size: 1rem;
+
+    }
+}

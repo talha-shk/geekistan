@@ -1,0 +1,136 @@
+.home-text{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .home-h1{
+    color: white;
+    font-size: 5rem;
+    font-weight: bolder;
+  }
+  .home-h2{
+    color: white;
+    font-size: 1.8rem;
+  }
+  .btn-container{
+    margin: 1rem 0rem;
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .btn{
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+    text-align: center;
+    border: 2px solid #ed1d24;
+    background-color: #ed1d24;
+    padding: 0.5rem 1.1rem;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: all 0.2s;
+  }
+  .btn:hover{
+    background-color: transparent;
+    border: 2px solid white;
+  }
+  .btn2{
+    background-color: transparent;
+    border: 2px solid white;
+  }
+  .btn2:hover{
+    background-color: #ed1d24;
+    border: 2px solid #ed1d24;
+  }
+
+
+  /* responsive breakpoints */
+
+  @media only screen and (max-width: 600px) {
+    html {
+      font-size: 14px;
+    }
+    .btn-container{
+      flex-direction: column;
+    }
+    .btn{
+      margin-top: 0.5rem;
+    }
+    .home-h1{
+      font-size: 3.5rem;
+      text-align: center;
+    }
+    .home-h2{
+      font-size: 1.4rem;
+      text-align: center;
+    }
+
+  }
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  html {
+    font-size: 15px;
+  }
+  .btn-container{
+    flex-direction: column;
+  }
+  .btn{
+    margin-top: 0.5rem;
+  }
+  .home-h1{
+    font-size: 3.8rem;
+    text-align: center;
+  }
+  .home-h2{
+    font-size: 1.7rem;
+    text-align: center;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  html {
+    font-size: 15px;
+  }
+  .btn-container{
+    flex-direction: row;
+    width: 60%;
+  }
+  .btn{
+    /* margin-top: 0.5rem; */
+  }
+  .home-h1{
+    font-size: 4rem;
+    text-align: center;
+  }
+  .home-h2{
+    font-size: 1.9rem;
+    text-align: center;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  html {
+    font-size: 16px;
+  }
+  .btn-container{
+    flex-direction: row;
+    width: 40%;
+  }
+  .btn{
+    /* margin-top: 0.5rem; */
+  }
+  .home-h1{
+    font-size: 4.2rem;
+    text-align: center;
+  }
+  .home-h2{
+    font-size: 2rem;
+    text-align: center;
+  }
+}
