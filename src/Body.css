@@ -94,7 +94,7 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   html {
-    font-size: 15px;
+    font-size: 13px;
   }
   .btn-container{
     flex-direction: row;
@@ -110,6 +110,13 @@
   .home-h2{
     font-size: 1.9rem;
     text-align: center;
+  }
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 768px){
+  html{
+    font-size: 12px;
   }
 }
 
