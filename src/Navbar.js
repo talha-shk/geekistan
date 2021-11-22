@@ -13,9 +13,15 @@ function Navbar() {
             x.style.display = "block";
           }
   }
+  window.addEventListener('scroll', function() {
+    console.log("scrollllllllliinnggg")
+    let header = document.getElementById('header');
+    let windowPosition = window.scrollY > 50;
+    header.classList.toggle('scroll-active', windowPosition);
+  })
   return (
     <>
-      <div className = 'nav-container'>
+      <div className = 'nav-container' id = 'header'>
         <div className="nav-logo-container">
             <div className="logo">
             <img src={logo} alt="Cant Load Image" />
@@ -27,9 +33,9 @@ function Navbar() {
         </div>
         <div id = 'mob-nav' className="nav-links-container contain-nav">
             <ul className = "show" id = 'mob-nav'>
-                <li><a href="./">Home</a></li>
-                <li><a href="./">Blog</a></li>
-                <li><a href="./">Contact</a></li>
+                <li><a href="./Body.js">Home</a></li>
+                <li><a href="./Service.js">Blog</a></li>
+                <li><a href="./Contact.js">Contact</a></li>
             </ul>
         </div>
       </div>

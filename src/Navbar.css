@@ -7,9 +7,11 @@
     background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
     border-bottom: 1px solid rgb(110, 110, 110);
+    position: fixed;
     display: flex;
     justify-content: space-around;
     padding: 0.8rem 0rem;
+    transition: all 0.4s;
 }
 .nav-logo-container{
     color: white;
@@ -56,10 +58,28 @@
     color: white;
     cursor: pointer;
 }
+
+
+.scroll-active{
+    z-index: 100;
+    transition: all 0.4s;
+    background-color: white;
+}
+.scroll-active h3{
+    color: black;
+}
+
+.scroll-active .nav-links-container ul li a{
+    color: black;
+}
+
 /* resposive breakpoints */
 /* @media only screen and (max-width: 600px) {
 } */
 @media only screen and (max-width: 909px) {
+    .nav-container{
+        position: relative;
+    }
     .hamburger{
         display: block;
         width: 15%;

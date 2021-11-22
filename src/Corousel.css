@@ -1,5 +1,5 @@
 .slider{
-    margin-top: 1rem;
+    margin-top: 2rem;
     padding: 1rem 0rem;
 }
 .image{
@@ -9,33 +9,40 @@
 
 @media only screen and (max-width: 600px){
     .slider{
-        margin-top: 6rem;
+        margin-top: 4rem;
     }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     .slider{
-        margin-top: 3rem;
+        margin-top: 2rem;
     }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .slider{
-        margin-top: 2.5rem;
+        margin-top: 2rem;
     }
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+/* @media only screen and (min-width: 768px) {
     .slider{
-        margin-top: 2rem;
+        margin-top: 7.5rem;
+    }
+} */
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 909px) and (max-width: 993px) {
+    .slider{
+        margin-top: 7.5rem;
     }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 993px) {
     .slider{
-        margin-top: 2rem;
+        margin-top: 6rem;
     }
 }
