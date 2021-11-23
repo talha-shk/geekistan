@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/geekistan/static/css/main.dcde9f64.chunk.css",
-    "main.js": "/geekistan/static/js/main.f107c8a9.chunk.js",
-    "main.js.map": "/geekistan/static/js/main.f107c8a9.chunk.js.map",
-    "runtime-main.js": "/geekistan/static/js/runtime-main.c99d12d5.js",
-    "runtime-main.js.map": "/geekistan/static/js/runtime-main.c99d12d5.js.map",
-    "static/js/2.f70d5144.chunk.js": "/geekistan/static/js/2.f70d5144.chunk.js",
-    "static/js/2.f70d5144.chunk.js.map": "/geekistan/static/js/2.f70d5144.chunk.js.map",
-    "static/js/3.80b55a5a.chunk.js": "/geekistan/static/js/3.80b55a5a.chunk.js",
-    "static/js/3.80b55a5a.chunk.js.map": "/geekistan/static/js/3.80b55a5a.chunk.js.map",
+    "main.css": "/geekistan/static/css/main.eb4418a4.chunk.css",
+    "main.js": "/geekistan/static/js/main.539a6255.chunk.js",
+    "main.js.map": "/geekistan/static/js/main.539a6255.chunk.js.map",
+    "runtime-main.js": "/geekistan/static/js/runtime-main.5807aa17.js",
+    "runtime-main.js.map": "/geekistan/static/js/runtime-main.5807aa17.js.map",
+    "static/css/2.028aad16.chunk.css": "/geekistan/static/css/2.028aad16.chunk.css",
+    "static/js/2.d3865407.chunk.js": "/geekistan/static/js/2.d3865407.chunk.js",
+    "static/js/2.d3865407.chunk.js.map": "/geekistan/static/js/2.d3865407.chunk.js.map",
+    "static/js/3.3d66da81.chunk.js": "/geekistan/static/js/3.3d66da81.chunk.js",
+    "static/js/3.3d66da81.chunk.js.map": "/geekistan/static/js/3.3d66da81.chunk.js.map",
     "index.html": "/geekistan/index.html",
-    "static/css/main.dcde9f64.chunk.css.map": "/geekistan/static/css/main.dcde9f64.chunk.css.map",
-    "static/js/2.f70d5144.chunk.js.LICENSE.txt": "/geekistan/static/js/2.f70d5144.chunk.js.LICENSE.txt",
-    "static/media/bg.c57aaad0.mp4": "/geekistan/static/media/bg.c57aaad0.mp4"
+    "static/css/2.028aad16.chunk.css.map": "/geekistan/static/css/2.028aad16.chunk.css.map",
+    "static/css/main.eb4418a4.chunk.css.map": "/geekistan/static/css/main.eb4418a4.chunk.css.map",
+    "static/js/2.d3865407.chunk.js.LICENSE.txt": "/geekistan/static/js/2.d3865407.chunk.js.LICENSE.txt",
+    "static/media/bg.c57aaad0.mp4": "/geekistan/static/media/bg.c57aaad0.mp4",
+    "static/media/slick-theme.css": "/geekistan/static/media/slick.c94f7671.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.c99d12d5.js",
-    "static/js/2.f70d5144.chunk.js",
-    "static/css/main.dcde9f64.chunk.css",
-    "static/js/main.f107c8a9.chunk.js"
+    "static/js/runtime-main.5807aa17.js",
+    "static/css/2.028aad16.chunk.css",
+    "static/js/2.d3865407.chunk.js",
+    "static/css/main.eb4418a4.chunk.css",
+    "static/js/main.539a6255.chunk.js"
   ]
 }
