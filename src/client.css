@@ -1,0 +1,19 @@
+.client-div{
+    overflow-x: hidden;
+}
+.client-div > img{
+    width: 40%;
+    margin: auto;
+}
+
+@media only screen and (max-width: 600px){
+    .client-div{
+        width: 100%;
+        border: 2px solid forestgreen
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 909px){
+    .client-div > img{
+        width: 60%;
+    }   
+}

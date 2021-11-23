@@ -14,7 +14,6 @@ function Navbar() {
           }
   }
   window.addEventListener('scroll', function() {
-    console.log("scrollllllllliinnggg")
     let header = document.getElementById('header');
     let windowPosition = window.scrollY > 50;
     header.classList.toggle('scroll-active', windowPosition);

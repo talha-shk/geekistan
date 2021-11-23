@@ -7,6 +7,7 @@ import Corousel from './Corousel';
 import Contact from './Contact';
 import Footer from './Footer';
 import Service from './Service';
+import Client from './Client';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
     </video>
     <Navbar/>
     <Body/>
+    {/* <Client/> */}
     <Corousel/>
     <Service/>
     <Contact/>

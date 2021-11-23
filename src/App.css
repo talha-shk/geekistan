@@ -1,3 +1,6 @@
+body{
+  overflow-x: hidden;
+}
 .video{
   position: absolute;
   width: 100%;
